@@ -1,7 +1,11 @@
 {{page-title "TestEmberAnimatedWithEmbroiderOptimized"}}
 
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<AnimatedContainer>
+  {{#animated-if this.fadeMessage use=this.transition}}
+    <div class="message">
+      Hello
+    </div>
+  {{/animated-if}}
+</AnimatedContainer>
 
 {{outlet}}
