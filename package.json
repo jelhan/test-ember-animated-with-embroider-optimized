@@ -73,5 +73,8 @@
     "@embroider/compat": "^2.1.1",
     "@embroider/core": "^2.1.1",
     "@embroider/webpack": "^2.1.1"
+  },
+  "volta": {
+    "node": "18.14.1"
   }
 }
